@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+/* margin-left: auto;
+margin-right: auto; */
+height: 100%;
+display: flex;
+flex-direction: row;
+
+}
+
+.head{
+
+   
+    color: white;
+       
+       text-align: center;
+       /* flex: 1; */
+       width:30% !important ;
+       box-sizing: border-box;
+      background-color: rgb(23, 66, 151);
+      max-height: 100%;
+   
+   
+
+   }
+   header{
+
+    padding:  30% 0 50% 0;
+    height: 100%; 
+   }
+
+ .profilepicture{
+
+     width:60%; 
+     height:30%;
+  border-radius: 100%;
+  padding-top: 20px;
+    
+} 
+
+#name {
+
+    margin-top: 10px;
+}
+.contact {
+    margin-top: 5px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+
+.social a{
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+
+.social{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+main{
+    flex: 1;
+    height: 100%;
+    
+}
+
+main h2{
+    color: rgb(23, 66, 151);
+    margin-top: 30px;
+}
+
+.space{
+    margin: 7px;
+}
+
+.skills ul{
+
+    list-style: none;
+}
+.skills {
+
+   width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.set{
+     
+     flex: 1;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     width: 200px;
+	height: 120px;
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.144);
+	text-align: center;
+    margin: 25px auto;
+    padding-top: 10px;
+    color: rgb(23, 66, 151);
+    margin-left: 5px;
+    margin-right: 5px;
+
+     
+}
+.section2{
+
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+hr{
+    color: rgb(23, 66, 151);
+    background-color: rgb(23, 66, 151);
+}
+
+em{
+    font-weight:normal;
+    /* font-size: 18px; */
+    color: rgb(23, 66, 151);
+}
+.form{
+    width: 350px;
+}
+.input{
+
+    margin-bottom: 10px;
+
+    
+}
+
+.input input[type="text"],  input[type="email"] , textarea, button {
+
+    padding: 10px;
+    width: 100%;
+    border-radius: 2px;
+    resize: none;
+
+    
+}
+
+button {
+    background-color: rgb(23, 66, 151);
+    color: white;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#errormessage{
+
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8bbe;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
