@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Femi Odejide's CV</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -124,7 +125,37 @@
             
         
         </div>
-      
+        <hr>
+<div class="form">
+
+    <h2 class="input">Contact Form</h2>
+    <div id="errormessage"></div>
+        <form id="contactform" action="" method="get" onsubmit="return validation()">
+
+            <div class="input" >
+         <div class="input"> <label class="input" for="Fullname">Fullname</label>  </div>
+            <input id="Fullname" name="Fullname" type="text"  placeholder="Enter your fullname(Surname first)"  required>
+        </div>
+
+            <div class="input">
+         <div class="input"><label class="input" for="email">Email</label></div>
+            <input id="email" name="email"  placeholder="Enter your email adress, we promise not to spam you" type="email" required >
+        </div>
+
+            <div class="input">
+        <div class="input">  <label class="input" for="title">Title</label> </div>
+            <input id="title" name="title" placeholder="Enter the title/subject of your message" type="text" required>
+        </div>
+
+    
+            <div class="input">
+          <div  class="input">  <label for="message">Enter Message</label><br> </div>
+           <textarea class="input" name="message" id="message" cols="30" rows="10"  placeholder="Enter your message(Minimum of 20 letters)" ></textarea>
+        </div>
+
+            <button type="submit" class="input">Submit</button>
+        </form>
+    </div> 
     </main>
 
 </div>
